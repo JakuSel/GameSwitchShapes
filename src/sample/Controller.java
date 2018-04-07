@@ -69,16 +69,14 @@ public class Controller {
             else if(num==3) {
                 toggle(2);
                 toggle(4);
-                toggle(8);
                 toggle(6);
                 toggle(7);
+                toggle(8);
             }
             else if(num == 4){
-                toggle(2);
-                toggle(4);
-                toggle(8);
-                toggle(6);
+                toggle(3);
                 toggle(7);
+                toggle(8);
             }
             else if (num == 5){
                 toggle(1);
