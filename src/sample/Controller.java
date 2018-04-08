@@ -3,6 +3,7 @@ package sample;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -264,5 +265,14 @@ public class Controller {
         } else {
             Platform.exit();
         }
+    }
+
+
+    public void rules(MouseEvent mouseEvent) {
+
+        Alert alert1 = new Alert(Alert.AlertType.CONFIRMATION);
+        alert1.setTitle("Win");
+        alert1.setHeaderText("YOU ARE VICTORIOUS!!!");
+        alert1.setResizable(false);
     }
 }

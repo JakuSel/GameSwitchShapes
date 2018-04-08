@@ -11,9 +11,11 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+
         primaryStage.setTitle("PUZZLE SWITCH SHAPES");
         primaryStage.setScene(new Scene(root, 777,600));
         primaryStage.show();
+
     }
 
 

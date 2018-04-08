@@ -97,5 +97,6 @@
             </ImageView>
          </children>
       </Pane>
+      <Button fx:id="rulee" layoutX="23.0" layoutY="283.0" mnemonicParsing="false" onMousePressed="#rules" prefHeight="39.0" prefWidth="142.0" text="Rules" />
    </children>
 </AnchorPane>
